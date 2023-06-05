@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Heart Beat</title>
+
+</head>
+<style>
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body section{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: darken(#d960ae, 10%);
+  background-repeat:no-repeat;
+  background-size:cover;
+	background-image:url("12.jpg");
+	;
+	
+}
+body section svg path{
+	stroke-dasharray: 4717.19042968758765;
+	stroke-width:5px;
+	stroke-dashoffset : 4717.19042968758765;
+	animation: animate 10s linear infinite;
+
+}
+@keyframes animate{
+	0%{
+		stroke-dashoffset : 4717.1904296875;
+	}
+	25%{
+		stroke-dashoffset : 3500;
+	}
+	30%{
+		stroke-dashoffset : 2200;
+	}
+	65%{
+		stroke-dashoffset : 0;
+	}
+	75%{
+		stroke-dashoffset : 0;
+	}
+	96%{
+		stroke-dashoffset : 4717.1904296875;
+	}
+	100%{
+		stroke-dashoffset : 4717.1904296875;
+	}
+}
+
+
+</style>
+<body >
+	<section>
+		<svg width="900" height="500" viewBox="0 0 791 352" fill="none" xmlns="http://www.w3.org/2000/svg">
+			<path id="pt" d="M0.5 166.135H21.7533H47.266H61.668L69.4436 169L78.2559 166.135L83.4396 162L91.2152 166.135L96.6216 171.135L113.159 166.135L121.222 89.7868L131.509 234.762L142.63 128.819L157.365 263.071L169.876 1L178.773 199.162L189.06 119.382L203.24 199.162L213.249 144.689L222.424 234.762L239.662 144.689L249.671 185.007L257.455 119.382L275.249 351L286.092 32.3113L305.276 199.162L323.348 144.689L333.635 199.162L349.761 119.382L373.115 209.885L384.236 63.1936L413.151 185.007L426.497 153.696L438.73 185.007L448.739 119.382L462.084 234.762L477.098 89.7868L490.165 209.885L506.569 144.689L528.811 263.071L536.874 54.1863L546.883 166.135L552.999 128.819L561.062 199.162L570.237 166.135L582.192 144.689L588.309 166.135L597.484 144.689L613.332 218.892L629.735 89.7868L643.915 199.162L653.09 153.696L667.269 209.885L673.386 144.689L684.507 185.007L692.414 178.5L698.23 185.007L707.305 191.007L711.707 185.007L719.483 178.5L725.703 185.007H736.071H754.549H768.21H790.5" stroke="white" stroke-width="3"/>
+		</svg>
+	</section>
+	  
+	</body>
+</html>
